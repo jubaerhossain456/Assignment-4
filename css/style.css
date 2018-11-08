@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+}
+.logo{
+    float: left;
+    display: inline-block;
+}
+.logo img{
+    width: 150px;
+}
+header{
+    background: black;
+    padding-top:10px;
+    padding-bottom:10px;
+    
+}
+nav{
+    float: right;
+    display: inline-block;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    text-transform: uppercase;
+    color:white;
+    
+}
+.container{
+    max-width: 1200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    overflow: hidden;
+}
+.row{
+    width: 100%;
+    height: auto;
+    margin-top:10px;
+}
+.col-1{
+    width: 8.3333%;
+    float: left;
+}
+.col-2{
+    width: 16.67%;
+    float: left;
+}
+.col-3{
+    width:25%;
+    float: left;
+}
+.col-4{
+    width: 33.33%;
+    display: inline-block;
+    float: left;
+}
+.col-5{
+    width: 41.67%;
+    float: left;
+}
+.col-6{
+    width: 50%;
+    float: left;
+}
+.col-7{
+    width: 58.33%;
+    float: left;
+}
+.col-8{
+    width: 66.64%;
+    float: left;
+}
+.col-9{
+    width: 75%;
+    float: left;
+}
+.col-10{
+    width: 83.33%;
+    float: left;
+}
+.col-11{
+    width: 91.66%;
+    float: left;
+}
+.col-12{
+    width: 100%;
+    float: left;
+}
+.featured-color{
+    background: whitesmoke;
+    
+    padding: 10px;
+    margin: 10px;
+}
+.second-section-bg{
+    background: whitesmoke;
+    margin-top: 20px;
+}
+.center{
+    text-align: center;
+}
+.image{
+    box-sizing: border-box; 
+    padding: 10px;
+    width: 90%;
+}
+.image img{
+    max-width: 100%;
+    background-size: cover;
+}
+footer{
+    background: black;
+    color:white;
+    text-align: center;
+    padding:100px;
+}
+
